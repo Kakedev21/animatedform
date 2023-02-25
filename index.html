@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>animated form</title>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <div class="form-btn">
+          <span onclick="login()">Login</span>
+          <span onclick="register()">Register</span>
+        </div>
+        <form id="loginForm">
+          <input type="text" placeholder="Username" />
+          <input type="text" placeholder="Password" />
+          <button>Login</button>
+        </form>
+        <form id="registerForm">
+          <input type="text" placeholder="Username" />
+          <input type="text" placeholder="Email" />
+          <input type="text" placeholder="Password" />
+          <button>Register</button>
+        </form>
+      </div>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
